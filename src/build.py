@@ -124,7 +124,7 @@ def render(d):
         return f'''<div class="kicker">案例激盪｜從 AI Day 看到什麼？</div><h2 class="title"><span>{e(d["title"])}</span></h2>
 <div class="aiday"><ul class="bul">{lis}</ul>{qr}</div>{foot(d)}'''
     if t == "prompt":
-        return f'{head(d)}<div class="prompt code"><button class="copy">複製</button><pre>{html.escape(d["text"])}</pre></div>{foot(d)}'
+        return f'{head(d)}<div class="prompt code{' small' if d.get('small') else ''}"><button class="copy">複製</button><pre>{html.escape(d["text"])}</pre></div>{foot(d)}'
     if t == "sources":
         cols = "".join("<ul>" + "".join(f"<li>{e(x)}</li>" for x in c) + "</ul>" for c in d["cols"])
         return f'<div class="kicker">來源</div><h2 class="title"><span>{e(d["title"])}</span></h2><div class="srcs">{cols}</div>'
