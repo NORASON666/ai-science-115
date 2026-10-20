@@ -125,6 +125,9 @@ S = [
  # ---------- 開場 ----------
  dict(t="cover",
       notes="【講稿】各位輔導員早安，我是數位學習中心的周凡淇，今天和田昊民組長一起陪大家兩個小時。\n10/8 錫安主任帶大家複習了酷AI、命題、小幫手和課程包；今天要做的是：**寫一個自己的 AI 機器人**，而且用大家下學期就會碰到的題目——水質檢測。"),
+ dict(t="qrpage", kicker="報到", title="先掃碼報到", img="checkin_qr_1022.png", alt="報到 QR Code",
+      lines=["A2 數位學習工作坊（二）", "酷課雲應用", "2026/10/22 報到用"],
+      notes="【講稿】進場請先掃 QR Code 報到。\n報到連結：https://cooc.tp.edu.tw/app_links/conference.html?th=a&act_uuid=fb060791-3b2f-428d-a6e6-f5953fb51a79"),
  dict(t="qrpage", kicker="研習社群", title="先加入 LINE 群組", img="line_group_qr.jpg",
       lines=["等一下的發想要用", "提示詞、範例、機器人都放這裡", "11 月、下學期繼續用"],
       notes="【講稿】請先掃 QR Code 加入群組，等一下第一個活動就要在群組裡丟點子。\n（隨時要再秀 QR Code：按 Q 或上方「QR」按鈕）"),

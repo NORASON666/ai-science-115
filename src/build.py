@@ -77,7 +77,7 @@ def render(d):
         return f'{head(d)}<div class="shot {cls}">{imgs}</div>{foot(d)}'
     if t == "qrpage":
         lis = "".join(f"<li>{e(x)}</li>" for x in d["lines"])
-        return f'{head(d)}<div class="qrpage"><img src="{SHOT}{d["img"]}" alt="LINE 群組 QR Code"><ul class="bul">{lis}</ul></div>{foot(d)}'
+        return f'{head(d)}<div class="qrpage"><img src="{SHOT}{d["img"]}" alt="{e(d.get("alt", "LINE 群組 QR Code"))}"><ul class="bul">{lis}</ul></div>{foot(d)}'
     if t == "compare":
         figs = "".join(f'<figure><img src="{SHOT}{i}" alt=""><figcaption>{e(c)}</figcaption></figure>' for i, c in d["imgs"])
         return f'{head(d)}<div class="shot two">{figs}</div>{foot(d)}'
