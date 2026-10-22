@@ -53,6 +53,7 @@ def render(d):
 <div class="org">115 科學與創新子計畫 2｜酷AI 科創酷課師養成坊（二）</div>
 <h1>AI 當<mark>水質小助教</mark><br>從數據到判讀</h1>
 <div class="meta">2026.10.22　大橋國小｜自然領域輔導員</div>
+<div class="who"><span>臺北市數位學習教育中心 主任 <b>汪明芳</b> 校長</span></div>
 <div class="who"><span>臺北市數位學習中心 <b>周凡淇</b></span><span>協同 <b>田昊民</b> 組長</span></div>
 </div></div>'''
     if t == "closing":
