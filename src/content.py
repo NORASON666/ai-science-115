@@ -131,6 +131,15 @@ S = [
  dict(t="qrpage", kicker="研習社群", title="先加入 LINE 群組", img="line_group_qr.jpg",
       lines=["等一下的發想要用", "提示詞、範例、機器人都放這裡", "11 月、下學期繼續用"],
       notes="【講稿】請先掃 QR Code 加入群組，等一下第一個活動就要在群組裡丟點子。\n（隨時要再秀 QR Code：按 Q 或上方「QR」按鈕）"),
+ dict(t="qrpage", kicker="研習資料", title="今天的雲端硬碟", img="drive_qr_1022.png", alt="研習雲端硬碟 QR Code",
+      lines=["今天用到的檔案都在這裡", "範例、學習單、照片", "掃碼或點下方連結"],
+      link="https://tinyurl.com/2xujgne5",
+      notes="【講稿】今天研習用的檔案都放在這個雲端硬碟，掃 QR Code 或點連結就能打開。\n雲端硬碟：https://drive.google.com/drive/folders/1qqKr5VtyjOSNk82TeFsOG_NLDBENz0V6?usp=sharing（短網址 https://tinyurl.com/2xujgne5）"),
+ # 取自 Canva「115西湖國小」p2、p3（10/21 西湖國小研習）
+ dict(t="shot", kicker="", title="上課前先記住：AI 說「我幫不上忙」時", hide_title=True, img="xihu_p02.jpg",
+      notes="【講稿】上課前先記住一件事：Gemini 有時會回「我只是語言模型，沒有能力……」。這通常不是它真的不會，而是系統的安全過濾、額度或功能切換出了狀況。\n**鼓勵或重新引導**：直接告訴它「你可以的」，或給它正面回饋，它常常會繼續做下去。（Canva「115西湖國小」p2）"),
+ dict(t="shot", kicker="", title="上課前先記住：模型一直在變", hide_title=True, img="xihu_p03.jpg",
+      notes="【講稿】各家模型一直在換代，今天強的明天可能就被追過。我們不用押寶某一家，要學的是「怎麼把需求和標準講清楚」，換哪個模型都用得上。（Canva「115西湖國小」p3）"),
  dict(t="cards", kicker="為什麼是今天這個題目", title="你們今天有兩個身分", cols=2, cards=[
       ("下學期：水質 AI 課程包的作者", "活動二 116/1～5 共 5 場\n分組認養淡水河系採集點\n產出至少 4 套融入 AI 的水質檢測課程包", "今天先把「AI 這一半」做起來"),
       ("11 月：科學備課坊的講師", "全市自然老師 4 場（11/4、11/13、11/18、11/27）\n把今天學的教給一般老師", "今天的骨架可以直接拿去教")],
@@ -169,6 +178,11 @@ S = [
       notes="【講稿】這一步我來操作就好。電腦版 LINE 右上角直向三點，選「儲存聊天」，就會存成 txt。"),
  dict(t="prompt", kicker="點子地圖提示詞（可複製）", title="把大家的點子分類", text=P_MAP,
       notes="【講稿】我把剛剛的 txt 丟給 Gemini、打開 Canvas，貼上這段。大家注意第 3 點：要它標出哪些是我們原本講的、哪些是它自己補的——AI 很會「好心補內容」。\n【備援】若現場網路不穩，用事先跑好的點子地圖連結。"),
+ # 取自 Canva「115西湖國小」p10、p11：先看昊民組長的範例，再接著設計
+ dict(t="shot", kicker="", title="田昊民老師課例：童年、夏日、棉花糖（課文）", hide_title=True, img="xihu_p10.jpg",
+      notes="【講稿】動手設計之前，先看昊民組長的範例。這是西門國小田昊民老師的課例，課文是〈童年、夏日、棉花糖〉。（Canva「115西湖國小」p10）\n（請昊民組長說明）"),
+ dict(t="shot", kicker="", title="田昊民老師課例：用 Gemini Canvas 做的「童年的棉花糖機」", hide_title=True, img="xihu_p11.jpg",
+      notes="【講稿】昊民組長把這篇課文用 Gemini Canvas 做成「童年的棉花糖機」，學生選口味、轉出棉花糖，再回到課文的情境。\n重點：老師先想清楚「學生要在裡面做什麼」，再請 AI 做出來。等一下我們做水質判讀小網頁，也是同樣的順序。（Canva「115西湖國小」p11）"),
 
  # ---------- ② Canvas ----------
  dict(t="divider", kicker="PART 2", title="把標準給 AI，AI 照標準判", sub="動手做：水質判讀小網頁", ill="sec_canvas",
