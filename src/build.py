@@ -113,6 +113,8 @@ def render(d):
     if t == "stats":
         cs = "".join(f'<div class="card stat"><div class="big">{e(n)}</div><h3>{e(l)}</h3>{f"<p>{e(s)}</p>" if s else ""}</div>' for n, l, s in d["stats"])
         return f'{head(d)}<div class="cards c{len(d["stats"])}">{cs}</div>{foot(d)}'
+    if t == "bigurl":
+        return f'{head(d)}<a class="bigurl" href="{html.escape(d["url"])}" target="_blank" rel="noopener">{e(d["text"])}</a>{foot(d)}'
     if t == "quote":
         return f'{head(d)}<blockquote class="quote">{e(d["text"])}</blockquote>{foot(d)}'
     if t == "check":

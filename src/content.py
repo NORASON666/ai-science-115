@@ -131,10 +131,9 @@ S = [
  dict(t="qrpage", kicker="研習社群", title="先加入 LINE 群組", img="line_group_qr.jpg",
       lines=["等一下的發想要用", "提示詞、範例、機器人都放這裡", "11 月、下學期繼續用"],
       notes="【講稿】請先掃 QR Code 加入群組，等一下第一個活動就要在群組裡丟點子。\n（隨時要再秀 QR Code：按 Q 或上方「QR」按鈕）"),
- dict(t="qrpage", kicker="研習資料", title="今天的雲端硬碟", img="drive_qr_1022.png", alt="研習雲端硬碟 QR Code",
-      lines=["今天用到的檔案都在這裡", "範例、學習單、照片", "掃碼或點下方連結"],
-      link="https://tinyurl.com/2xujgne5",
-      notes="【講稿】今天研習用的檔案都放在這個雲端硬碟，掃 QR Code 或點連結就能打開。\n雲端硬碟：https://drive.google.com/drive/folders/1qqKr5VtyjOSNk82TeFsOG_NLDBENz0V6?usp=sharing（短網址 https://tinyurl.com/2xujgne5）"),
+ dict(t="bigurl", kicker="研習資料", title="今天的雲端硬碟", text="tinyurl.com/2xujgne5", url="https://tinyurl.com/2xujgne5",
+      foot="今天用到的檔案都在這裡：範例、學習單、照片",
+      notes="【講稿】今天研習用的檔案都放在這個雲端硬碟，網址打 tinyurl.com/2xujgne5 就能打開。\n雲端硬碟：https://drive.google.com/drive/folders/1qqKr5VtyjOSNk82TeFsOG_NLDBENz0V6?usp=sharing"),
  # 取自 Canva「115西湖國小」p2、p3（10/21 西湖國小研習）
  dict(t="shot", kicker="", title="上課前先記住：AI 說「我幫不上忙」時", hide_title=True, img="xihu_p02.jpg",
       notes="【講稿】上課前先記住一件事：Gemini 有時會回「我只是語言模型，沒有能力……」。這通常不是它真的不會，而是系統的安全過濾、額度或功能切換出了狀況。\n**鼓勵或重新引導**：直接告訴它「你可以的」，或給它正面回饋，它常常會繼續做下去。（Canva「115西湖國小」p2）"),
